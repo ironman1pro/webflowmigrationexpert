@@ -352,6 +352,11 @@ footer{ background:var(--surface); border-top:1px solid var(--border); padding:6
 .page-hero .eyebrow{ margin-bottom:16px; }
 .page-hero p{ margin-top:18px; font-size:18px; color:var(--text-muted); max-width:600px; }
 
+/* ---------- About photo ---------- */
+.about-photo-row{ display:flex; align-items:center; gap:24px; margin-bottom:6px; }
+.about-photo{ width:104px; height:104px; border-radius:50%; object-fit:cover; flex-shrink:0; border:3px solid var(--surface); box-shadow:var(--shadow-md); }
+@media (max-width:560px){ .about-photo-row{ flex-direction:column; align-items:flex-start; gap:16px; } }
+
 /* ---------- Breadcrumbs ---------- */
 .breadcrumb{ font-size:13px; color:var(--text-faint); margin-bottom:20px; }
 .breadcrumb a{ color:var(--text-muted); }
