@@ -1,0 +1,26 @@
+# Webflow Migration Expert
+
+> Certified Webflow Expert who migrates websites onto Webflow from Shopify, WordPress, Wix, Squarespace, and static HTML, and builds new Webflow sites from Figma designs. 42 projects delivered, 4.9 rating on Upwork. Specializes in migrations that preserve existing SEO rankings via full redirect mapping and metadata carryover.
+
+Every migration keeps the client's current site live and untouched until the rebuilt Webflow site is tested and approved. Redirect maps are built for every ranking URL. Free 15-minute calls are offered before any project starts, including honest feedback when Webflow is not the right fit.
+
+## Services
+
+- [Shopify to Webflow Migration](https://webflowmigrationexpert.com/shopify-to-webflow.html): Moving Shopify stores to Webflow while keeping checkout, product data, and rankings intact.
+- [WordPress to Webflow Migration](https://webflowmigrationexpert.com/wordpress-to-webflow.html): Moving WordPress sites off plugins and page builders onto Webflow.
+- [Wix to Webflow Migration](https://webflowmigrationexpert.com/wix-to-webflow.html): Moving Wix sites to Webflow, including manual content re-entry since Wix has no clean export.
+- [Squarespace to Webflow Migration](https://webflowmigrationexpert.com/squarespace-to-webflow.html): Moving Squarespace sites to Webflow with full content and SEO carryover.
+- [Static HTML to Webflow Migration](https://webflowmigrationexpert.com/html-to-webflow.html): Moving hand-coded or legacy static HTML sites to Webflow.
+- [Figma to Webflow Build](https://webflowmigrationexpert.com/figma-to-webflow.html): Building a new Webflow site directly from a Figma design file, for teams without an existing live site.
+
+## Company
+
+- [About](https://webflowmigrationexpert.com/about.html): Background, working process, and verified track record.
+- [Portfolio](https://webflowmigrationexpert.com/#portfolio): Recent migration and build projects.
+- [Case Studies](https://webflowmigrationexpert.com/case-studies/): Detailed write-ups of the challenge, approach, and result for select projects.
+- [Blog](https://webflowmigrationexpert.com/blog/): Platform-specific migration guides.
+- [Book a free call](https://webflowmigrationexpert.com/#book): Free 15-minute consultation before any project starts.
+
+## Verification
+
+- [Upwork profile](https://www.upwork.com/freelancers/webflow1): Public project history and client ratings.

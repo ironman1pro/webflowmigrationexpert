@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /case-studies/template.html
+
+Sitemap: https://webflowmigrationexpert.com/sitemap.xml

@@ -29,6 +29,7 @@
         '<a class="pill" href="/#portfolio">Portfolio</a>' +
         '<a class="pill" href="/case-studies/">Case Studies</a>' +
         '<a class="pill" href="/blog/">Blog</a>' +
+        '<a class="pill" href="/about.html">About</a>' +
         '<a class="nav-cta btn-primary" href="/#book">Book a free call</a>' +
       '</div>' +
     '</div>';
@@ -52,6 +53,7 @@
       '<div class="footer-col">' +
         '<span class="footer-col-title">Explore</span>' +
         '<a href="/">Home</a>' +
+        '<a href="/about.html">About</a>' +
         '<a href="/#portfolio">Portfolio</a>' +
         '<a href="/case-studies/">Case Studies</a>' +
         '<a href="/blog/">Blog</a>' +

@@ -179,11 +179,14 @@ h2{ font-size:clamp(26px,3.4vw,38px); }
 
 /* ---------- Trust stats ---------- */
 .trust{ background:var(--surface); border-top:1px solid var(--border); border-bottom:1px solid var(--border); }
-.trust-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:24px; }
+.trust-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:24px; }
 .trust-stat{ text-align:center; }
 .trust-stat strong{ display:block; font-size:clamp(28px,3.4vw,38px); font-weight:800; color:var(--text); letter-spacing:-.02em; }
 .trust-stat span{ display:block; margin-top:6px; font-size:14px; color:var(--text-muted); }
-@media (max-width:760px){ .trust-grid{ grid-template-columns:repeat(2,1fr); gap:32px 20px; } }
+a.trust-stat-link{ text-decoration:none; transition:opacity .15s ease; }
+a.trust-stat-link:hover{ opacity:.75; }
+a.trust-stat-link strong{ color:var(--primary); }
+@media (max-width:760px){ .trust-grid{ grid-template-columns:repeat(3,1fr); gap:20px 14px; } .trust-stat strong{ font-size:clamp(20px,5vw,28px); } }
 
 /* ---------- Problem / cards ---------- */
 .card-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-top:48px; }
@@ -348,6 +351,12 @@ footer{ background:var(--surface); border-top:1px solid var(--border); padding:6
 .page-hero .wrap{ max-width:760px; }
 .page-hero .eyebrow{ margin-bottom:16px; }
 .page-hero p{ margin-top:18px; font-size:18px; color:var(--text-muted); max-width:600px; }
+
+/* ---------- Breadcrumbs ---------- */
+.breadcrumb{ font-size:13px; color:var(--text-faint); margin-bottom:20px; }
+.breadcrumb a{ color:var(--text-muted); }
+.breadcrumb a:hover{ color:var(--primary); }
+.breadcrumb .sep{ margin:0 6px; }
 
 /* ---------- Blog ---------- */
 .blog-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-top:44px; }
