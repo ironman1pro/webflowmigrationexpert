@@ -1,5 +1,5 @@
 /* ============================================================
-   webflowmigrationexpert.com — shared navbar + footer component
+   webflowmigrationexpert.com: shared navbar + footer component
    Edit the markup below once and it updates on every page that
    loads this script.
    ============================================================ */
@@ -21,10 +21,14 @@
             '<a href="/shopify-to-webflow.html">Shopify &rarr; Webflow</a>' +
             '<a href="/wordpress-to-webflow.html">WordPress &rarr; Webflow</a>' +
             '<a href="/wix-to-webflow.html">Wix &rarr; Webflow</a>' +
+            '<a href="/squarespace-to-webflow.html">Squarespace &rarr; Webflow</a>' +
+            '<a href="/html-to-webflow.html">HTML &rarr; Webflow</a>' +
+            '<a href="/figma-to-webflow.html">Figma &rarr; Webflow</a>' +
           '</div>' +
         '</div>' +
+        '<a class="pill" href="/#portfolio">Portfolio</a>' +
+        '<a class="pill" href="/case-studies/">Case Studies</a>' +
         '<a class="pill" href="/blog/">Blog</a>' +
-        '<a class="pill" href="/#faq">FAQ</a>' +
         '<a class="nav-cta btn-primary" href="/#book">Book a free call</a>' +
       '</div>' +
     '</div>';
@@ -33,7 +37,7 @@
     '<div class="wrap footer-grid">' +
       '<div class="footer-brand">' +
         '<a class="logo" href="/"><span class="mark">W</span>Webflow<span>Migration</span>Expert</a>' +
-        '<p>Certified Webflow Expert migrations from Shopify, WordPress, Wix, Squarespace, and AI site builders &mdash; without losing your rankings or your design.</p>' +
+        '<p>Certified Webflow Expert migrations from Shopify, WordPress, Wix, Squarespace, and AI site builders, without losing your rankings or your design.</p>' +
         '<a class="footer-email" href="mailto:hello@webflowmigrationexpert.com">hello@webflowmigrationexpert.com</a>' +
       '</div>' +
       '<div class="footer-col">' +
@@ -41,10 +45,15 @@
         '<a href="/shopify-to-webflow.html">Shopify &rarr; Webflow</a>' +
         '<a href="/wordpress-to-webflow.html">WordPress &rarr; Webflow</a>' +
         '<a href="/wix-to-webflow.html">Wix &rarr; Webflow</a>' +
+        '<a href="/squarespace-to-webflow.html">Squarespace &rarr; Webflow</a>' +
+        '<a href="/html-to-webflow.html">HTML &rarr; Webflow</a>' +
+        '<a href="/figma-to-webflow.html">Figma &rarr; Webflow</a>' +
       '</div>' +
       '<div class="footer-col">' +
         '<span class="footer-col-title">Explore</span>' +
         '<a href="/">Home</a>' +
+        '<a href="/#portfolio">Portfolio</a>' +
+        '<a href="/case-studies/">Case Studies</a>' +
         '<a href="/blog/">Blog</a>' +
         '<a href="/#faq">FAQ</a>' +
       '</div>' +
