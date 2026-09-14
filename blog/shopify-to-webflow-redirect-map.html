@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopify to Webflow: Building a Redirect Map That Actually Works | Webflow Migration Expert</title>
+<meta name="description" content="How a proper 301 redirect map protects a Shopify store's rankings during a Webflow migration, and the mistakes that quietly break it.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="shortcut icon" href="/favicon.ico">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Shopify to Webflow: Building a Redirect Map That Actually Works | Webflow Migration Expert">
+<meta property="og:description" content="How a proper 301 redirect map protects a Shopify store's rankings during a Webflow migration, and the mistakes that quietly break it.">
+<meta property="og:image" content="https://webflowmigrationexpert.com/images/og-image.png">
+<meta property="og:url" content="https://webflowmigrationexpert.com/blog/shopify-to-webflow-redirect-map.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Shopify to Webflow: Building a Redirect Map That Actually Works | Webflow Migration Expert">
+<meta name="twitter:description" content="How a proper 301 redirect map protects a Shopify store's rankings during a Webflow migration, and the mistakes that quietly break it.">
+<meta name="twitter:image" content="https://webflowmigrationexpert.com/images/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/shared.css">
+<link rel="canonical" href="https://webflowmigrationexpert.com/blog/shopify-to-webflow-redirect-map.html">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://webflowmigrationexpert.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://webflowmigrationexpert.com/blog/"}, {"@type": "ListItem", "position": 3, "name": "Shopify to Webflow: Building a Redirect Map That Actually Works", "item": "https://webflowmigrationexpert.com/blog/shopify-to-webflow-redirect-map.html"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Shopify to Webflow: Building a Redirect Map That Actually Works", "description": "How a proper 301 redirect map protects a Shopify store's rankings during a Webflow migration, and the mistakes that quietly break it.", "image": "https://webflowmigrationexpert.com/images/og-image.png", "author": {"@type": "Organization", "name": "Webflow Migration Expert", "url": "https://webflowmigrationexpert.com/"}, "publisher": {"@type": "Organization", "name": "Webflow Migration Expert", "logo": {"@type": "ImageObject", "url": "https://webflowmigrationexpert.com/apple-touch-icon.png"}}, "datePublished": "2026-09-14", "dateModified": "2026-09-14", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://webflowmigrationexpert.com/blog/shopify-to-webflow-redirect-map.html"}}</script>
+</head>
+<body>
+
+<site-nav></site-nav>
+
+<main>
+  <section class="page-hero" style="padding-bottom:0;">
+    <div class="wrap" style="max-width:700px;">
+      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">/</span><a href="/blog/">Blog</a><span class="sep">/</span><span>Shopify to Webflow: Building a Redirect Map That Actually Works</span></nav>
+      <span class="eyebrow">Shopify</span>
+      <h1 style="font-size:clamp(28px,4vw,42px);">Shopify to Webflow: Building a Redirect Map That Actually Works</h1>
+      <div class="post-meta">
+        <span>Webflow Migration Expert</span>
+        <span>&middot;</span>
+        <span>4 min read</span>
+      </div>
+    </div>
+  </section>
+
+  <article class="post-body">
+
+    <p>A redirect map is the single most important technical piece of a Shopify migration, and also the easiest to get almost right, which is worse than getting it obviously wrong.</p>
+
+    <h2>What a redirect map actually is</h2>
+    <p>Every URL on your current Shopify store gets an entry, old URL, new URL, as a 301 (permanent) redirect. That includes product pages, collection pages, blog posts, and any standalone pages, not just your homepage and top nav links.</p>
+
+    <h2>Where redirect maps usually break</h2>
+    <ul>
+      <li><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10.5l4 4 8-9"/></svg>Redirect chains: a URL that redirects to another URL that also redirects, instead of straight to the final destination</li>
+      <li><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10.5l4 4 8-9"/></svg>Missed URLs: seasonal collections, discontinued products still ranking, or paginated category pages that get forgotten</li>
+      <li><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10.5l4 4 8-9"/></svg>302 (temporary) redirects used where a 301 was needed, which tells search engines the move isn't permanent</li>
+    </ul>
+
+    <h2>How it should actually happen</h2>
+    <p>The map gets built during the audit, before any design or build work starts, pulled from your actual current sitemap and search console data rather than guessed at from memory. Webflow supports redirects natively in project settings, so once the map is built it's a configuration step, not custom development.</p>
+
+    <div class="related-posts">
+      <h3>More on Shopify to Webflow</h3>
+      <ul><li><a href="/blog/shopify-to-webflow-checkout-explained.html">Shopify to Webflow: What Actually Happens to Your Checkout</a></li><li><a href="/blog/shopify-to-webflow-product-data-migration.html">Shopify to Webflow: Migrating Your Product Catalog Without Losing SEO</a></li></ul>
+    </div>
+
+    <div class="post-cta">
+      <h3>Not sure what your current URL structure even is?</h3>
+      <p>Get a free 15-minute call and we'll pull it together as part of the audit.</p>
+      <a class="btn-primary" href="/shopify-to-webflow.html#book">Book your free call</a>
+    </div>
+  </article>
+</main>
+
+<site-footer></site-footer>
+
+<script src="/nav-footer.js" defer></script>
+</body>
+</html>

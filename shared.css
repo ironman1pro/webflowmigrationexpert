@@ -78,13 +78,13 @@ button{ font-family:inherit; cursor:pointer; }
 .btn-ghost:hover{ text-decoration:underline; }
 
 /* ---------- Nav ---------- */
-nav{
+site-nav nav{
   position:sticky; top:0; z-index:50;
   background:rgba(246,247,251,.85);
   backdrop-filter:blur(10px);
   border-bottom:1px solid var(--border);
 }
-nav .wrap{
+site-nav nav .wrap{
   display:flex; align-items:center; justify-content:space-between;
   height:72px;
 }
@@ -357,6 +357,13 @@ footer{ background:var(--surface); border-top:1px solid var(--border); padding:6
 .about-photo{ width:104px; height:104px; border-radius:50%; object-fit:cover; flex-shrink:0; border:3px solid var(--surface); box-shadow:var(--shadow-md); }
 @media (max-width:560px){ .about-photo-row{ flex-direction:column; align-items:flex-start; gap:16px; } }
 
+/* ---------- Related posts ---------- */
+.related-posts{ margin:40px 0 8px; padding:22px 24px; background:var(--bg-alt); border-radius:var(--radius); }
+.related-posts h3{ font-size:14px; text-transform:uppercase; letter-spacing:.03em; color:var(--text-muted); margin-bottom:10px; }
+.related-posts ul{ display:flex; flex-direction:column; gap:8px; }
+.related-posts a{ color:var(--primary); font-size:15px; font-weight:600; }
+.related-posts a:hover{ text-decoration:underline; }
+
 /* ---------- Breadcrumbs ---------- */
 .breadcrumb{ font-size:13px; color:var(--text-faint); margin-bottom:20px; }
 .breadcrumb a{ color:var(--text-muted); }
@@ -364,7 +371,10 @@ footer{ background:var(--surface); border-top:1px solid var(--border); padding:6
 .breadcrumb .sep{ margin:0 6px; }
 
 /* ---------- Blog ---------- */
-.blog-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-top:44px; }
+.blog-group{ padding-top:56px; }
+.blog-group:first-child{ padding-top:8px; }
+.blog-group-title{ font-size:20px; padding-bottom:14px; border-bottom:1px solid var(--border); }
+.blog-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-top:28px; }
 .blog-card{
   background:var(--surface); border:1px solid var(--border); border-radius:var(--radius);
   padding:24px; box-shadow:var(--shadow-sm); transition:transform .15s ease, box-shadow .15s ease;
