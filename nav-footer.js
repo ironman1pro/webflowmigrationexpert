@@ -18,12 +18,12 @@
             '<span class="caret" aria-hidden="true"></span>' +
           '</button>' +
           '<div class="dropdown-menu">' +
-            '<a href="/shopify-to-webflow.html">Shopify &rarr; Webflow</a>' +
-            '<a href="/wordpress-to-webflow.html">WordPress &rarr; Webflow</a>' +
-            '<a href="/wix-to-webflow.html">Wix &rarr; Webflow</a>' +
-            '<a href="/squarespace-to-webflow.html">Squarespace &rarr; Webflow</a>' +
-            '<a href="/html-to-webflow.html">HTML &rarr; Webflow</a>' +
-            '<a href="/figma-to-webflow.html">Figma &rarr; Webflow</a>' +
+            '<a href="/shopify-to-webflow.html">Shopify to Webflow Migration</a>' +
+            '<a href="/wordpress-to-webflow.html">WordPress to Webflow Migration</a>' +
+            '<a href="/wix-to-webflow.html">Wix to Webflow Migration</a>' +
+            '<a href="/squarespace-to-webflow.html">Squarespace to Webflow Migration</a>' +
+            '<a href="/html-to-webflow.html">HTML to Webflow Migration</a>' +
+            '<a href="/figma-to-webflow.html">Figma to Webflow Migration</a>' +
           '</div>' +
         '</div>' +
         '<a class="pill" href="/#portfolio">Portfolio</a>' +
@@ -43,12 +43,12 @@
       '</div>' +
       '<div class="footer-col">' +
         '<span class="footer-col-title">Migrations</span>' +
-        '<a href="/shopify-to-webflow.html">Shopify &rarr; Webflow</a>' +
-        '<a href="/wordpress-to-webflow.html">WordPress &rarr; Webflow</a>' +
-        '<a href="/wix-to-webflow.html">Wix &rarr; Webflow</a>' +
-        '<a href="/squarespace-to-webflow.html">Squarespace &rarr; Webflow</a>' +
-        '<a href="/html-to-webflow.html">HTML &rarr; Webflow</a>' +
-        '<a href="/figma-to-webflow.html">Figma &rarr; Webflow</a>' +
+        '<a href="/shopify-to-webflow.html">Shopify to Webflow Migration</a>' +
+        '<a href="/wordpress-to-webflow.html">WordPress to Webflow Migration</a>' +
+        '<a href="/wix-to-webflow.html">Wix to Webflow Migration</a>' +
+        '<a href="/squarespace-to-webflow.html">Squarespace to Webflow Migration</a>' +
+        '<a href="/html-to-webflow.html">HTML to Webflow Migration</a>' +
+        '<a href="/figma-to-webflow.html">Figma to Webflow Migration</a>' +
       '</div>' +
       '<div class="footer-col">' +
         '<span class="footer-col-title">Explore</span>' +

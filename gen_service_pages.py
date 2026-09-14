@@ -116,7 +116,7 @@ def page(slug, eyebrow, headline, sub, title, description, problems, note_title,
     process_html = "".join(process_step(*s) for s in steps)
     process_h2 = process_h2 or "A migration that doesn't touch your live site until it's ready."
     process_sub = process_sub or "Your current site stays live and untouched until the new one is tested and approved."
-    crumb_label = eyebrow.replace(" to Webflow", " &rarr; Webflow")
+    crumb_label = eyebrow
 
     body = f'''
   <!-- ============ PAGE HERO ============ -->
@@ -227,7 +227,7 @@ PAGES = []
 PAGES.append(dict(
     slug="shopify-to-webflow",
     eyebrow="Shopify to Webflow",
-    headline="Move your storefront to Webflow without breaking checkout.",
+    headline="Shopify to Webflow Migration, Without Breaking Checkout",
     sub="Keep your products, payments, and conversions working, while fixing what Shopify's theme system can't.",
     title="Shopify to Webflow Migration | Webflow Migration Expert",
     description="Migrate your Shopify store to Webflow without losing checkout, product data, or search rankings. Certified Webflow Expert.",
@@ -257,7 +257,7 @@ PAGES.append(dict(
 PAGES.append(dict(
     slug="wordpress-to-webflow",
     eyebrow="WordPress to Webflow",
-    headline="Leave plugin bloat and security patches behind.",
+    headline="WordPress to Webflow Migration, Free of Plugin Bloat",
     sub="Keep every page and blog post's rankings intact, while getting off a stack of plugins, updates, and hosting headaches.",
     title="WordPress to Webflow Migration | Webflow Migration Expert",
     description="Migrate your WordPress site to Webflow without losing your blog's SEO rankings. No more plugins, security patches, or slow hosting.",
@@ -287,7 +287,7 @@ PAGES.append(dict(
 PAGES.append(dict(
     slug="wix-to-webflow",
     eyebrow="Wix to Webflow",
-    headline="Rebuild past Wix's design ceiling.",
+    headline="Wix to Webflow Migration, Past the Design Ceiling",
     sub="For teams who've hit Wix's limits and want a site that loads faster, ranks better, and doesn't look like a template.",
     title="Wix to Webflow Migration | Webflow Migration Expert",
     description="Migrate your Wix site to Webflow for real custom design, faster load times, and better SEO. Certified Webflow Expert.",
@@ -317,7 +317,7 @@ PAGES.append(dict(
 PAGES.append(dict(
     slug="squarespace-to-webflow",
     eyebrow="Squarespace to Webflow",
-    headline="Get the design freedom Squarespace won't give you.",
+    headline="Squarespace to Webflow Migration, With Real Design Freedom",
     sub="For design-conscious teams who've hit the limits of template editing and want full control without losing what already ranks.",
     title="Squarespace to Webflow Migration | Webflow Migration Expert",
     description="Migrate your Squarespace site to Webflow without losing your SEO rankings. Real custom design, faster load times, no more template constraints.",
@@ -336,7 +336,7 @@ PAGES.append(dict(
     note_body="Squarespace offers a real content export, so pages and posts move over in reasonable shape. Custom code blocks are where it gets messy, those get rebuilt properly rather than pasted in as another workaround. Redirects and metadata get the same treatment as any migration, so rankings carry over.",
     faqs=[
         ("Will my Squarespace content export cleanly?", "Mostly, yes. Pages and blog content export in usable shape, though formatting and any custom code blocks get manually rebuilt to work properly in Webflow rather than copied as-is."),
-        ("Will I lose my search rankings?", "Not if the migration is done properly, with a full redirect map and matched metadata. That's standard on every migration, not an add-on."),
+        ("Will I lose my search rankings?", "Not if it's done properly. Protecting your rankings is standard on every migration, not an add-on, and it's the part most DIY migrations get wrong."),
         ("Can Webflow match Squarespace's design polish?", "Webflow can go further, since you're not working inside a template. Anything you've seen a Squarespace site do, and most things you haven't, are possible."),
         ("What about my Squarespace store?", "Depending on your catalog size, either Webflow's native e-commerce replaces it fully, or we keep your existing checkout running behind a rebuilt Webflow front end. We'll figure out which fits during the audit."),
     ],
@@ -347,7 +347,7 @@ PAGES.append(dict(
 PAGES.append(dict(
     slug="html-to-webflow",
     eyebrow="HTML to Webflow",
-    headline="Turn a static HTML site into one you can actually edit.",
+    headline="HTML to Webflow Migration, Finally Editable",
     sub="For hand-coded, template-built, or inherited sites where every change means touching code.",
     title="HTML to Webflow Migration | Webflow Migration Expert",
     description="Migrate a static HTML site to Webflow and get a real visual editor, a CMS, and faster hosting, without losing your existing search rankings.",
@@ -377,7 +377,7 @@ PAGES.append(dict(
 PAGES.append(dict(
     slug="figma-to-webflow",
     eyebrow="Figma to Webflow",
-    headline="Turn your Figma design into a real, working website.",
+    headline="Figma to Webflow Development, From Design File to Live Site",
     sub="For designers and founders with a finished design that needs to be built properly: responsive, interactive, and structured the way Webflow actually works.",
     title="Figma to Webflow Development | Webflow Migration Expert",
     description="Turn your Figma design into a fully responsive, editable Webflow site. Pixel-accurate builds with interactions, CMS structure, and clean class naming.",
