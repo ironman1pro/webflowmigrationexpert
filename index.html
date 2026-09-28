@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="index, follow">
 <title>Webflow Migration Expert | 40+ Sites Moved, SEO Intact</title>
-<meta name="description" content="Hire a certified Webflow migration expert. 40+ sites moved from WordPress, Wix, Framer and more with every URL mapped, 301 redirects set and SEO intact.">
+<meta name="description" content="Hire a certified Webflow migration expert. 40+ sites moved from WordPress, Wix, Framer and more, every URL 301 redirected, rankings kept. Free quote.">
 <link rel="canonical" href="https://webflowmigrationexpert.com/">
 <meta property="og:title" content="Webflow Migration Expert: move to Webflow without losing SEO">
 <meta property="og:description" content="40+ SEO-safe migrations to Webflow from WordPress, Wix, Framer, Squarespace and more.">
@@ -68,7 +68,7 @@
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--ink);color:var(--text);font-family:Manrope,system-ui,-apple-system,"Segoe UI",sans-serif;font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
-img{max-width:100%;display:block}
+img{max-width:100%;height:auto;display:block}
 a{color:var(--gold-dk)}
 .dark a{color:var(--gold)}
 :focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:6px}
@@ -184,6 +184,8 @@ p{margin:0}
 /* platforms */
 .tiles{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-top:44px}
 .tile{min-height:62px;display:flex;align-items:center;justify-content:center;text-align:center;padding:10px 12px;border-radius:15px;background:var(--paper);border:1px solid var(--line);font-family:Poppins,sans-serif;font-weight:500;font-size:15.5px;color:var(--text)}
+.tile{text-decoration:none;transition:border-color .2s ease,transform .2s ease}
+a.tile:hover{border-color:#D9BC79;transform:translateY(-2px)}
 .tile.ask{background:var(--text);color:#F1E3BE;border-color:var(--text);text-decoration:none}
 
 /* process */
@@ -277,6 +279,14 @@ input::placeholder,textarea::placeholder{color:#8C826D}
 
 footer{background:#0A0908;border-top:1px solid rgba(214,176,98,.14);padding-inline:var(--gut);color:var(--dim);font-size:14px}
 footer .in{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding-block:36px}
+footer .fgrid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,2fr);gap:48px;padding-block:48px 28px}
+footer .fh{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
+footer .flinks{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 20px}
+footer .flinks a{display:inline-block;padding:6px 0;color:var(--sand);text-decoration:none}
+footer .flinks a:hover{color:var(--cream)}
+footer .fbot{border-top:1px solid rgba(214,176,98,.1);padding-block:22px 34px}
+@media (max-width:1020px){footer .fgrid{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:640px){footer .flinks{grid-template-columns:repeat(2,minmax(0,1fr))}}
 footer strong{display:block;font-family:Poppins,sans-serif;font-weight:500;font-size:17px;color:var(--cream)}
 
 @media (max-width: 1020px){
@@ -455,9 +465,9 @@ footer strong{display:block;font-family:Poppins,sans-serif;font-weight:500;font-
       <p class="lead" style="max-width:44ch;margin-top:0">Whatever your website runs on today, I rebuild it in Webflow and bring your content, URLs and SEO with it.</p>
     </div>
     <div class="tiles">
-      <div class="tile">WordPress to Webflow</div><div class="tile">Wix to Webflow</div><div class="tile">Framer to Webflow</div><div class="tile">Squarespace to Webflow</div><div class="tile">HubSpot CMS to Webflow</div>
-      <div class="tile">Shopify to Webflow</div><div class="tile">Weebly to Webflow</div><div class="tile">GoDaddy to Webflow</div><div class="tile">Duda to Webflow</div><div class="tile">Joomla to Webflow</div>
-      <div class="tile">Drupal to Webflow</div><div class="tile">Ghost to Webflow</div><div class="tile">Custom code to Webflow</div><div class="tile">Figma to Webflow</div><a class="tile ask" href="#quote">Something else? Ask</a>
+      <a class="tile" href="/wordpress-to-webflow-migration">WordPress to Webflow</a><a class="tile" href="/wix-to-webflow-migration">Wix to Webflow</a><a class="tile" href="/framer-to-webflow-migration">Framer to Webflow</a><a class="tile" href="/squarespace-to-webflow-migration">Squarespace to Webflow</a><a class="tile" href="/hubspot-to-webflow-migration">HubSpot CMS to Webflow</a>
+      <a class="tile" href="/shopify-to-webflow-migration">Shopify to Webflow</a><a class="tile" href="/weebly-to-webflow-migration">Weebly to Webflow</a><a class="tile" href="/godaddy-to-webflow-migration">GoDaddy to Webflow</a><a class="tile" href="/duda-to-webflow-migration">Duda to Webflow</a><a class="tile" href="/joomla-to-webflow-migration">Joomla to Webflow</a>
+      <a class="tile" href="/drupal-to-webflow-migration">Drupal to Webflow</a><a class="tile" href="/ghost-to-webflow-migration">Ghost to Webflow</a><a class="tile" href="/html-to-webflow-migration">Custom code to Webflow</a><a class="tile" href="/figma-to-webflow">Figma to Webflow</a><a class="tile ask" href="#quote">Something else? Ask</a>
     </div>
   </div>
 </section>
@@ -613,10 +623,11 @@ footer strong{display:block;font-family:Poppins,sans-serif;font-weight:500;font-
 </main>
 
 <footer>
-  <div class="in">
+  <div class="in fgrid">
     <div><strong>Webflow Migration Expert</strong>Damir A. · Webflow Certified developer</div>
-    <div>© 2026 webflowmigrationexpert.com</div>
+    <nav aria-label="Webflow migrations"><div class="fh">Webflow migrations</div><ul class="flinks"><li><a href="/wordpress-to-webflow-migration">WordPress to Webflow</a></li><li><a href="/wix-to-webflow-migration">Wix to Webflow</a></li><li><a href="/framer-to-webflow-migration">Framer to Webflow</a></li><li><a href="/squarespace-to-webflow-migration">Squarespace to Webflow</a></li><li><a href="/hubspot-to-webflow-migration">HubSpot to Webflow</a></li><li><a href="/shopify-to-webflow-migration">Shopify to Webflow</a></li><li><a href="/weebly-to-webflow-migration">Weebly to Webflow</a></li><li><a href="/godaddy-to-webflow-migration">GoDaddy to Webflow</a></li><li><a href="/duda-to-webflow-migration">Duda to Webflow</a></li><li><a href="/joomla-to-webflow-migration">Joomla to Webflow</a></li><li><a href="/drupal-to-webflow-migration">Drupal to Webflow</a></li><li><a href="/ghost-to-webflow-migration">Ghost to Webflow</a></li><li><a href="/html-to-webflow-migration">HTML to Webflow</a></li><li><a href="/figma-to-webflow">Figma to Webflow</a></li></ul></nav>
   </div>
+  <div class="in fbot"><div>© 2026 webflowmigrationexpert.com</div></div>
 </footer>
 
 <script>

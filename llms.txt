@@ -1,0 +1,26 @@
+# Webflow Migration Expert
+
+> Damir A., a Webflow Certified developer, migrates websites to Webflow from WordPress, Wix, Framer, Squarespace, HubSpot, Shopify and other platforms. 40+ Webflow migrations, Top Rated on Upwork with 100% Job Success. Every URL is mapped and 301 redirected so SEO survives the move. Most migrations take 2 to 3 weeks.
+
+## Main page
+- [Webflow Migration Expert](https://webflowmigrationexpert.com/): services, process, portfolio, reviews, FAQ and quote form
+
+## Webflow migration guides and services
+- [WordPress to Webflow Migration](https://webflowmigrationexpert.com/wordpress-to-webflow-migration): Moving from WordPress to Webflow? Posts, pages and Yoast SEO moved, every URL 301 redirected, no more plugins. 40+ migrations done. Get a free quote.
+- [Wix to Webflow Migration](https://webflowmigrationexpert.com/wix-to-webflow-migration): Outgrown Wix? Your site rebuilt pixel-perfect in Webflow, blog moved to the CMS and every Wix URL 301 redirected. Live in 2 to 3 weeks. Get a free quote.
+- [Framer to Webflow Migration](https://webflowmigrationexpert.com/framer-to-webflow-migration): Move from Framer to Webflow without losing your design or SEO. Animations rebuilt, Framer CMS moved to Webflow CMS, every URL redirected. Free quote.
+- [Squarespace to Webflow Migration](https://webflowmigrationexpert.com/squarespace-to-webflow-migration): Outgrow Squarespace templates without losing traffic. Pages and blog moved to Webflow, design rebuilt pixel-perfect, every URL 301 redirected. Free quote.
+- [HubSpot to Webflow Migration](https://webflowmigrationexpert.com/hubspot-to-webflow-migration): Move your HubSpot CMS website and blog to Webflow while keeping HubSpot CRM and forms. Every URL redirected, SEO protected. Get a free migration quote.
+- [Shopify to Webflow Migration](https://webflowmigrationexpert.com/shopify-to-webflow-migration): Move your Shopify marketing site or store to Webflow. Products, content and SEO moved, every URL 301 redirected, launched in 2 to 3 weeks. Free quote.
+- [Weebly to Webflow Migration](https://webflowmigrationexpert.com/weebly-to-webflow-migration): Leave Weebly for a fast, modern Webflow website. Pages and blog moved, design rebuilt, every URL 301 redirected to protect your rankings. Free quote.
+- [GoDaddy to Webflow Migration](https://webflowmigrationexpert.com/godaddy-to-webflow-migration): Move from GoDaddy Website Builder to Webflow. A faster, more flexible site with your content moved and every URL 301 redirected. Get a free quote.
+- [Duda to Webflow Migration](https://webflowmigrationexpert.com/duda-to-webflow-migration): Move your Duda website to Webflow. Pages rebuilt, content and blog moved, and every URL 301 redirected so no link breaks. Live in 2 to 3 weeks. Free quote.
+- [Joomla to Webflow Migration](https://webflowmigrationexpert.com/joomla-to-webflow-migration): Leave Joomla updates behind. Articles and categories moved to Webflow CMS, design rebuilt, every Joomla URL 301 redirected to keep SEO. Get a free quote.
+- [Drupal to Webflow Migration](https://webflowmigrationexpert.com/drupal-to-webflow-migration): Move from Drupal to Webflow. Content types and taxonomies mapped to Webflow CMS, design rebuilt, every URL alias 301 redirected. Get a free quote.
+- [Ghost to Webflow Migration](https://webflowmigrationexpert.com/ghost-to-webflow-migration): Move your Ghost publication to Webflow. Posts, tags and authors moved to Webflow CMS, design rebuilt, every Ghost URL 301 redirected. Get a free quote.
+- [HTML to Webflow Migration](https://webflowmigrationexpert.com/html-to-webflow-migration): Turn your custom-coded HTML website into Webflow your team can edit visually. Rebuilt pixel-perfect, every URL kept or redirected, SEO protected. Free quote.
+- [Figma to Webflow Development](https://webflowmigrationexpert.com/figma-to-webflow): Your Figma design built pixel-perfect in Webflow by a certified developer. Responsive on every breakpoint, CMS and SEO set up, easy to edit. Free quote.
+
+## Contact
+- Request a quote: https://webflowmigrationexpert.com/#quote
+- Upwork profile: https://www.upwork.com/freelancers/webflow1
