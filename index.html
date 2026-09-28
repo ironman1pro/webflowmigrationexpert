@@ -112,9 +112,9 @@ p{margin:0}
 .rating{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:28px;font-size:15px;color:var(--sand)}
 .stars{color:#E3BE6C;letter-spacing:2px;font-size:17px}
 .av{width:44px;height:44px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px #0D0C0A,0 0 0 3px rgba(214,176,98,.7)}
-.visual{position:relative;padding:34px 18px 230px 0}
-.route{position:absolute;top:0;left:-16px;z-index:3;display:flex;align-items:center;gap:10px;padding:10px 18px;border-radius:40px;background:#171512;border:1px solid rgba(214,176,98,.5);box-shadow:0 16px 40px rgba(0,0,0,.5);font-family:Poppins,sans-serif;font-size:14px;font-weight:500;color:#F1E8D3}
-.rot{display:inline-block;height:1.5em;overflow:hidden;vertical-align:bottom;width:7.4em}
+.visual{position:relative;padding:66px 0 150px}
+.route{position:absolute;top:0;left:0;z-index:3;display:flex;align-items:center;gap:10px;padding:10px 18px;border-radius:40px;background:#171512;border:1px solid rgba(214,176,98,.5);box-shadow:0 16px 40px rgba(0,0,0,.5);font-family:Poppins,sans-serif;font-size:14px;font-weight:500;color:#F1E8D3}
+.rot{display:inline-block;height:1.5em;overflow:hidden;vertical-align:bottom;width:6.9em}
 .rot-in{display:flex;flex-direction:column;animation:rot 10s cubic-bezier(.7,0,.3,1) infinite}
 .rot-in span{height:1.5em;line-height:1.5em;color:#E9DDC0}
 @keyframes rot{0%,16%{transform:translateY(0)}20%,36%{transform:translateY(-1.5em)}40%,56%{transform:translateY(-3em)}60%,76%{transform:translateY(-4.5em)}80%,96%{transform:translateY(-6em)}100%{transform:translateY(-7.5em)}}
@@ -127,14 +127,17 @@ p{margin:0}
 .live b{width:7px;height:7px;border-radius:50%;background:#7FD18B;box-shadow:0 0 0 0 rgba(127,209,139,.6);animation:pulse 2s infinite}
 @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(127,209,139,.55)}70%{box-shadow:0 0 0 8px rgba(127,209,139,0)}100%{box-shadow:0 0 0 0 rgba(127,209,139,0)}}
 .shot img{width:100%;aspect-ratio:1400/662;object-fit:cover;object-position:top center}
-.status{position:absolute;right:0;bottom:0;z-index:2;width:min(340px,86%);padding:18px 20px;border-radius:18px;background:#171512;border:1px solid rgba(214,176,98,.5);box-shadow:0 30px 70px rgba(0,0,0,.6);animation:rise .9s .25s cubic-bezier(.2,.7,.2,1) both}
-.status .lab{display:flex;justify-content:space-between;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);font-weight:700}
-.status ul{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-direction:column;gap:11px}
+.status{position:absolute;right:-20px;bottom:0;z-index:2;width:min(318px,82%);padding:18px 20px;border-radius:18px;background:#171512;border:1px solid rgba(214,176,98,.5);box-shadow:0 30px 70px rgba(0,0,0,.6);animation:rise .9s .25s cubic-bezier(.2,.7,.2,1) both}
+.status .lab{display:flex;justify-content:space-between;gap:14px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);font-weight:700}
+.status .lab span{white-space:nowrap}
+@media (max-width:1200px){.status .lab{letter-spacing:.08em;font-size:11px}}
+.status ul{list-style:none;margin:14px 0 0;padding:0;display:flex;flex-direction:column;gap:12px}
+.status .trk,.glowline{display:none}
 .status li{display:grid;grid-template-columns:20px minmax(0,1fr);gap:10px;align-items:center;font-size:13.5px;color:#F1E8D3}
 .tick{width:20px;height:20px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,#F3DB98,#C0913C);animation:pop .35s both}
 .trk{grid-column:2;height:3px;border-radius:3px;background:rgba(214,176,98,.15);overflow:hidden;margin-top:-4px}
 .trk i{display:block;height:100%;background:linear-gradient(90deg,#CFA04A,#F3DB98);transform-origin:left;animation:fill .8s both}
-.status li:nth-child(1) .tick{animation-delay:1.3s}.status li:nth-child(1) .trk i{animation-delay:.5s}
+.status li:nth-child(1) .tick{animation-delay:.8s}.status li:nth-child(1) .trk i{animation-delay:.5s}
 .status li:nth-child(2) .tick{animation-delay:1.9s}.status li:nth-child(2) .trk i{animation-delay:1.1s}
 .status li:nth-child(3) .tick{animation-delay:2.5s}.status li:nth-child(3) .trk i{animation-delay:1.7s}
 .status li:nth-child(4) .tick{animation-delay:3.1s}.status li:nth-child(4) .trk i{animation-delay:2.3s}
@@ -302,11 +305,11 @@ footer strong{display:block;font-family:Poppins,sans-serif;font-weight:500;font-
   .grid3,.svc,.grid2,.quotes,.two,.facts,.astats{grid-template-columns:minmax(0,1fr)}
   .tiles{grid-template-columns:repeat(2,minmax(0,1fr))}
   .steps{grid-template-columns:minmax(0,1fr)}
-  .visual{padding:30px 0 170px}
+  .visual{padding:62px 0 0}
   .route{left:0}
-  .status{width:92%}
+  .status{position:relative;right:auto;width:92%;margin:-36px 0 0 auto}
+  .status .lab{letter-spacing:.1em}
   .brand span.txt{display:none}
-  .visual{padding-bottom:250px}
 }
 @media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
 </style>
