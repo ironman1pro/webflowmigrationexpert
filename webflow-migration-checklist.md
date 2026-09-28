@@ -1,6 +1,6 @@
 ---
-title: Webflow Migration Checklist | Free 25-Step SEO Checklist
-description: Free interactive Webflow migration checklist. 25 steps to move your website to Webflow without losing Google rankings, from URL audit to Search Console.
+title: Webflow Migration Checklist | Free SEO Website Migration
+description: Free Webflow migration checklist: 25 SEO steps to migrate your website without losing Google rankings, plus WordPress, Wix and Squarespace specific checks.
 url: https://webflowmigrationexpert.com/webflow-migration-checklist
 ---
 
@@ -18,7 +18,7 @@ url: https://webflowmigrationexpert.com/webflow-migration-checklist
 
 # Webflow Migration SEO Checklist
 
-25 steps to move your website to Webflow without losing Google rankings, from the URL audit to Search Console after launch. Tick them off as you go; your progress is saved.
+The SEO website migration checklist for Webflow: 25 steps to move your site without losing Google rankings, from the URL audit to Search Console after launch. Your progress is saved as you go.
 
 ## Before the migration
 
@@ -62,6 +62,46 @@ url: https://webflowmigrationexpert.com/webflow-migration-checklist
 
 Your progress is saved in this browser, so you can come back to it anytime.
 
+## Extra checks for your current platform
+
+The 25 steps above apply to every website migration. Each platform also has its own traps. These are the ones to add to your checklist.
+
+### WordPress to Webflow
+
+- Date-based and nested URLs
+- Shortcodes and page builder markup
+- Plugin features
+
+### Wix to Webflow
+
+- No export button
+- Wix URL patterns
+- Images hosted on Wix
+
+### Framer to Webflow
+
+- Animation parity
+- Components and variants
+- CMS structure
+
+### Squarespace to Webflow
+
+- Partial export
+- Image links
+- URL structure
+
+### HubSpot to Webflow
+
+- Breaking lead flow
+- HubL modules
+- Blog URL changes
+
+### Shopify to Webflow
+
+- Choosing the wrong setup
+- Product URL redirects
+- Variants and options
+
 ## How to use this tool
 
 1. **Start before you build**: Crawl and benchmark the old site first. You can't protect rankings you haven't measured.
@@ -72,6 +112,10 @@ Your progress is saved in this browser, so you can come back to it anytime.
 ## Questions, answered
 
 Also try the free [Webflow 301 Redirect Generator](https://webflowmigrationexpert.com/webflow-301-redirect-generator).
+
+### What should a website migration checklist include?
+
+A good website migration checklist covers five phases: auditing and benchmarking the old site, building and importing content, SEO setup, launch with 301 redirects and a new sitemap, and monitoring Search Console after launch. This checklist covers all 25 steps.
 
 ### How do I migrate a website to Webflow without losing SEO?
 

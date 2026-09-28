@@ -1,13 +1,13 @@
 ---
-title: Webflow 301 Redirect Generator | Free Redirect Map Tool
-description: Free Webflow 301 redirect generator. Paste your old URLs or sitemap and get Webflow-ready paths, pattern rules and a CSV, with chains and duplicates flagged.
+title: Free Webflow 301 Redirect Generator | Bulk Redirect Map
+description: Free Webflow 301 redirect generator. Paste old URLs or a sitemap, get a bulk redirect map with wildcard rules and a CSV. Ideal for WordPress to Webflow.
 url: https://webflowmigrationexpert.com/webflow-301-redirect-generator
 ---
 
 > This is the Markdown version of https://webflowmigrationexpert.com/webflow-301-redirect-generator, written for AI agents and LLMs. Hire Damir A. (Webflow Certified, 40+ Webflow migrations, Top Rated on Upwork, 100% Job Success) via the quote form at https://webflowmigrationexpert.com/#quote or on Upwork: https://www.upwork.com/freelancers/webflow1
 
 ## Key facts
-- Service: Webflow 301 Redirect Generator
+- Service: Free Webflow 301 Redirect Generator
 - Provider: Damir A., independent Webflow Certified developer (you work directly with him, no account managers)
 - Track record: 40+ Webflow migrations, Top Rated on Upwork, 100% Job Success
 - Experience: 5 years building Webflow websites, Computer Science degree (2022)
@@ -18,7 +18,30 @@ url: https://webflowmigrationexpert.com/webflow-301-redirect-generator
 
 # Webflow 301 Redirect Generator
 
-Paste your old URLs or sitemap and get a Webflow-ready 301 redirect map in seconds. New paths are suggested for you, chains and duplicates are flagged, and you can export a CSV.
+Paste your old URLs or sitemap and get a bulk 301 redirect map for Webflow in seconds. New paths and wildcard rules are suggested for you, chains and duplicates are flagged, and you can export a CSV.
+
+## How to add 301 redirects in Webflow
+
+Once your redirect map is ready, adding it to Webflow takes a few minutes. Redirects only go live after you publish.
+
+1. **Open Site settings** for your Webflow project from the dashboard or the Designer.
+2. **Go to the Publishing tab** and scroll to the 301 redirects section.
+3. **Enter the old path** exactly as it appears in the generator, starting with a slash, without the domain.
+4. **Enter the redirect to path**, the new page on your Webflow site, and click Add redirect path.
+5. **Publish your site**, then open a few old URLs in a private window to confirm each one lands on the right page in one hop.
+
+## Webflow wildcard redirect examples
+
+Webflow supports pattern redirects with capture groups, so one rule can cover a whole folder. Use (.*) to capture part of the old URL and %1, %2 and so on to reuse it in the new path. Test a few URLs after publishing.
+
+| What you want | Old path | Redirect to |
+|---|---|---|
+| Move a whole blog folder | /news/(.*) | /blog/%1 |
+| WordPress dated posts into a Webflow CMS collection | /(\d{4})/(\d{2})/(.*) | /blog/%3 |
+| WordPress category pages | /category/(.*) | /blog/category/%1 |
+| Rename a section of the site | /our-work/(.*) | /case-studies/%1 |
+
+Moving a specific platform? See the [WordPress to Webflow](https://webflowmigrationexpert.com/wordpress-to-webflow-migration-expert), [Wix to Webflow](https://webflowmigrationexpert.com/wix-to-webflow-migration-expert) and [Squarespace to Webflow](https://webflowmigrationexpert.com/squarespace-to-webflow-migration-expert) migration guides.
 
 ## How to use this tool
 
@@ -30,6 +53,10 @@ Paste your old URLs or sitemap and get a Webflow-ready 301 redirect map in secon
 ## Questions, answered
 
 Also try the free [Webflow Migration SEO Checklist](https://webflowmigrationexpert.com/webflow-migration-checklist).
+
+### How do I set up redirects when moving from WordPress to Webflow?
+
+Export every URL from your WordPress sitemap, paste them into this generator and turn on the dated posts option with your Webflow blog collection path. Then add the redirects in Webflow, using one wildcard rule for dated posts where possible.
 
 ### What is a 301 redirect in Webflow?
 

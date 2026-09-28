@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="index, follow, max-image-preview:large">
-<title>Webflow 301 Redirect Generator | Free Redirect Map Tool</title>
-<meta name="description" content="Free Webflow 301 redirect generator. Paste your old URLs or sitemap and get Webflow-ready paths, pattern rules and a CSV, with chains and duplicates flagged.">
+<title>Free Webflow 301 Redirect Generator | Bulk Redirect Map</title>
+<meta name="description" content="Free Webflow 301 redirect generator. Paste old URLs or a sitemap, get a bulk redirect map with wildcard rules and a CSV. Ideal for WordPress to Webflow.">
 <link rel="alternate" type="text/markdown" href="/webflow-301-redirect-generator.md" title="Markdown version for AI agents">
 <link rel="canonical" href="https://webflowmigrationexpert.com/webflow-301-redirect-generator">
-<meta property="og:title" content="Webflow 301 Redirect Generator | Free Redirect Map Tool">
-<meta property="og:description" content="Free Webflow 301 redirect generator. Paste your old URLs or sitemap and get Webflow-ready paths, pattern rules and a CSV, with chains and duplicates flagged.">
+<meta property="og:title" content="Free Webflow 301 Redirect Generator | Bulk Redirect Map">
+<meta property="og:description" content="Free Webflow 301 redirect generator. Paste old URLs or a sitemap, get a bulk redirect map with wildcard rules and a CSV. Ideal for WordPress to Webflow.">
 <meta property="og:url" content="https://webflowmigrationexpert.com/webflow-301-redirect-generator">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://webflowmigrationexpert.com/images/og-image.png">
@@ -17,8 +17,8 @@
 <meta property="og:image:height" content="630">
 <meta property="og:site_name" content="Webflow Migration Expert">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Webflow 301 Redirect Generator | Free Redirect Map Tool">
-<meta name="twitter:description" content="Free Webflow 301 redirect generator. Paste your old URLs or sitemap and get Webflow-ready paths, pattern rules and a CSV, with chains and duplicates flagged.">
+<meta name="twitter:title" content="Free Webflow 301 Redirect Generator | Bulk Redirect Map">
+<meta name="twitter:description" content="Free Webflow 301 redirect generator. Paste old URLs or a sitemap, get a bulk redirect map with wildcard rules and a CSV. Ideal for WordPress to Webflow.">
 <meta name="twitter:image" content="https://webflowmigrationexpert.com/images/og-image.png">
 <link rel="icon" href="/favicon.ico?v=2" sizes="any">
 <link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml">
@@ -35,8 +35,8 @@
    "@type": "WebPage",
    "@id": "https://webflowmigrationexpert.com/webflow-301-redirect-generator#webpage",
    "url": "https://webflowmigrationexpert.com/webflow-301-redirect-generator",
-   "name": "Webflow 301 Redirect Generator | Free Redirect Map Tool",
-   "description": "Free Webflow 301 redirect generator. Paste your old URLs or sitemap and get Webflow-ready paths, pattern rules and a CSV, with chains and duplicates flagged.",
+   "name": "Free Webflow 301 Redirect Generator | Bulk Redirect Map",
+   "description": "Free Webflow 301 redirect generator. Paste old URLs or a sitemap, get a bulk redirect map with wildcard rules and a CSV. Ideal for WordPress to Webflow.",
    "isPartOf": {
     "@type": "WebSite",
     "name": "Webflow Migration Expert",
@@ -88,6 +88,14 @@
   {
    "@type": "FAQPage",
    "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "How do I set up redirects when moving from WordPress to Webflow?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Export every URL from your WordPress sitemap, paste them into this generator and turn on the dated posts option with your Webflow blog collection path. Then add the redirects in Webflow, using one wildcard rule for dated posts where possible."
+     }
+    },
     {
      "@type": "Question",
      "name": "What is a 301 redirect in Webflow?",
@@ -480,6 +488,20 @@ footer ul.ftools{display:block}
 .howto p{font-size:17px;color:var(--muted);margin-top:6px}
 .hire{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:40px;align-items:center}
 .hire .rel{margin-top:0;grid-template-columns:repeat(2,minmax(0,1fr))}
+
+.guide{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:56px;align-items:start}
+.gsteps{counter-reset:g;list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+.gsteps li{position:relative;padding:18px 20px 18px 66px;border-radius:16px;background:var(--paper);border:1px solid var(--line);color:var(--muted)}
+.gsteps li:before{counter-increment:g;content:counter(g);position:absolute;left:18px;top:16px;width:32px;height:32px;border-radius:50%;display:grid;place-items:center;font-family:Poppins,sans-serif;font-size:15px;color:#17120A;background:linear-gradient(135deg,#F3DB98,#C0913C)}
+.gsteps b{color:var(--text)}
+.pat td code,.pat th code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:15.5px;color:var(--text);background:#F6EEDB;padding:2px 8px;border-radius:6px;word-break:break-all}
+.pcards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:40px}
+.pcardx{display:flex;flex-direction:column;gap:10px;padding:24px;border-radius:20px;background:var(--paper);border:1px solid var(--line)}
+.pcardx h3{display:flex;align-items:center;gap:10px;font-size:19px;color:var(--text)}
+.pcardx ul{margin:0;padding-left:18px;color:var(--muted);font-size:17px}
+.pcardx a{margin-top:auto;font-weight:700}
+@media (max-width:1020px){.guide{grid-template-columns:minmax(0,1fr)}.pcards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.pcards{grid-template-columns:minmax(0,1fr)}}
 @media (max-width:1020px){.tgrid,.hire{grid-template-columns:minmax(0,1fr)}.howto{grid-template-columns:repeat(2,minmax(0,1fr))}.cbar{top:76px}}
 @media (max-width:640px){.phase ul,.howto,.hire .rel{grid-template-columns:minmax(0,1fr)}.cbar{position:static}}
 @media print{.nav,.th,.cbar button,footer,.ai-sec,.tool-after{display:none!important}.tool{box-shadow:none}}
@@ -514,7 +536,7 @@ p,li,td,blockquote{line-height:1.65}
     <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><span aria-current="page">Webflow 301 Redirect Generator</span></li></ol></nav>
     <div class="pill"><span class="ti sm" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#17120A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h11l-3-3M20 17H9l3 3"/></svg></span>Free Webflow migration tool</div>
     <h1 id="h1">Webflow 301 <span class="gold">Redirect Generator</span></h1>
-    <p class="sub">Paste your old URLs or sitemap and get a Webflow-ready 301 redirect map in seconds. New paths are suggested for you, chains and duplicates are flagged, and you can export a CSV.</p>
+    <p class="sub">Paste your old URLs or sitemap and get a bulk 301 redirect map for Webflow in seconds. New paths and wildcard rules are suggested for you, chains and duplicates are flagged, and you can export a CSV.</p>
     <ul class="chips" aria-label="About this tool"><li><span class="tick"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#17120A" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>100% free</li><li><span class="tick"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#17120A" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>No sign-up</li><li><span class="tick"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#17120A" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>Runs in your browser</li></ul>
   </div>
 </section>
@@ -570,6 +592,41 @@ Know the new URL already? Add it after a comma:
   </div>
 </section>
 
+<section class="sec light tool-after" aria-labelledby="g-h">
+  <div class="in guide">
+    <div>
+      <div class="kick">Webflow guide</div>
+      <h2 id="g-h" class="h2">How to add 301 redirects in Webflow</h2>
+      <p class="lead">Once your redirect map is ready, adding it to Webflow takes a few minutes. Redirects only go live after you publish.</p>
+    </div>
+    <ol class="gsteps">
+      <li><b>Open Site settings</b> for your Webflow project from the dashboard or the Designer.</li>
+      <li><b>Go to the Publishing tab</b> and scroll to the 301 redirects section.</li>
+      <li><b>Enter the old path</b> exactly as it appears in the generator, starting with a slash, without the domain.</li>
+      <li><b>Enter the redirect to path</b>, the new page on your Webflow site, and click Add redirect path.</li>
+      <li><b>Publish your site</b>, then open a few old URLs in a private window to confirm each one lands on the right page in one hop.</li>
+    </ol>
+  </div>
+</section>
+
+<section class="sec ivory tool-after" aria-labelledby="w-h">
+  <div class="in">
+    <div class="kick">Wildcard redirects</div>
+    <h2 id="w-h" class="h2">Webflow wildcard redirect examples</h2>
+    <p class="lead">Webflow supports pattern redirects with capture groups, so one rule can cover a whole folder. Use (.*) to capture part of the old URL and %1, %2 and so on to reuse it in the new path. Test a few URLs after publishing.</p>
+    <div class="tbl-wrap pat"><table>
+      <thead><tr><th scope="col">What you want</th><th scope="col">Old path</th><th scope="col">Redirect to</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Move a whole blog folder</th><td data-label="Old path"><code>/news/(.*)</code></td><td data-label="Redirect to"><code>/blog/%1</code></td></tr>
+        <tr><th scope="row">WordPress dated posts into a Webflow CMS collection</th><td data-label="Old path"><code>/(\d{4})/(\d{2})/(.*)</code></td><td data-label="Redirect to"><code>/blog/%3</code></td></tr>
+        <tr><th scope="row">WordPress category pages</th><td data-label="Old path"><code>/category/(.*)</code></td><td data-label="Redirect to"><code>/blog/category/%1</code></td></tr>
+        <tr><th scope="row">Rename a section of the site</th><td data-label="Old path"><code>/our-work/(.*)</code></td><td data-label="Redirect to"><code>/case-studies/%1</code></td></tr>
+      </tbody>
+    </table></div>
+    <p class="lead" style="font-size:16px">Moving a specific platform? See the <a href="/wordpress-to-webflow-migration-expert">WordPress to Webflow</a>, <a href="/wix-to-webflow-migration-expert">Wix to Webflow</a> and <a href="/squarespace-to-webflow-migration-expert">Squarespace to Webflow</a> migration guides.</p>
+  </div>
+</section>
+
 <section class="sec light tool-after" aria-labelledby="how-h">
   <div class="in">
     <div class="kick">How to use it</div>
@@ -585,7 +642,7 @@ Know the new URL already? Add it after a comma:
       <h2 id="faq-h" class="h2">Questions, answered</h2>
       <p class="lead">Also try the free <a href="/webflow-migration-checklist">Webflow Migration SEO Checklist</a>.</p>
     </div>
-    <div class="faqs"><details open><summary><h3>What is a 301 redirect in Webflow?</h3><span class="pm" aria-hidden="true">+</span></summary><p>A 301 redirect permanently sends visitors and search engines from an old URL to a new one. In Webflow you add them under Site settings, Publishing, 301 redirects, with the old path on the left and the new path on the right.</p></details><details><summary><h3>Do I need 301 redirects when I migrate to Webflow?</h3><span class="pm" aria-hidden="true">+</span></summary><p>Yes, for every URL that changes. Without them, old links and Google results lead to 404 pages and the rankings those pages earned are lost. URLs that stay exactly the same don't need a redirect.</p></details><details><summary><h3>Can one Webflow redirect cover many URLs?</h3><span class="pm" aria-hidden="true">+</span></summary><p>Yes. Webflow supports pattern redirects with capture groups, such as /(\d{4})/(\d{2})/(.*) to /blog/%3, which moves every dated WordPress post into a blog collection with one rule. The tool suggests this when it finds dated posts.</p></details><details><summary><h3>What are redirect chains and why avoid them?</h3><span class="pm" aria-hidden="true">+</span></summary><p>A chain is when a redirect points to a URL that redirects again. Each extra hop slows the page and can dilute SEO value, so every old URL should redirect straight to its final new path. The tool flags chains and loops.</p></details><details><summary><h3>Is my data uploaded anywhere?</h3><span class="pm" aria-hidden="true">+</span></summary><p>No. The tool runs entirely in your browser. Your URLs are never sent to a server.</p></details></div>
+    <div class="faqs"><details open><summary><h3>How do I set up redirects when moving from WordPress to Webflow?</h3><span class="pm" aria-hidden="true">+</span></summary><p>Export every URL from your WordPress sitemap, paste them into this generator and turn on the dated posts option with your Webflow blog collection path. Then add the redirects in Webflow, using one wildcard rule for dated posts where possible.</p></details><details><summary><h3>What is a 301 redirect in Webflow?</h3><span class="pm" aria-hidden="true">+</span></summary><p>A 301 redirect permanently sends visitors and search engines from an old URL to a new one. In Webflow you add them under Site settings, Publishing, 301 redirects, with the old path on the left and the new path on the right.</p></details><details><summary><h3>Do I need 301 redirects when I migrate to Webflow?</h3><span class="pm" aria-hidden="true">+</span></summary><p>Yes, for every URL that changes. Without them, old links and Google results lead to 404 pages and the rankings those pages earned are lost. URLs that stay exactly the same don't need a redirect.</p></details><details><summary><h3>Can one Webflow redirect cover many URLs?</h3><span class="pm" aria-hidden="true">+</span></summary><p>Yes. Webflow supports pattern redirects with capture groups, such as /(\d{4})/(\d{2})/(.*) to /blog/%3, which moves every dated WordPress post into a blog collection with one rule. The tool suggests this when it finds dated posts.</p></details><details><summary><h3>What are redirect chains and why avoid them?</h3><span class="pm" aria-hidden="true">+</span></summary><p>A chain is when a redirect points to a URL that redirects again. Each extra hop slows the page and can dilute SEO value, so every old URL should redirect straight to its final new path. The tool flags chains and loops.</p></details><details><summary><h3>Is my data uploaded anywhere?</h3><span class="pm" aria-hidden="true">+</span></summary><p>No. The tool runs entirely in your browser. Your URLs are never sent to a server.</p></details></div>
   </div>
 </section>
 
