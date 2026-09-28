@@ -20,9 +20,9 @@
 <meta name="twitter:title" content="Webflow Migration Expert: move to Webflow without losing SEO">
 <meta name="twitter:description" content="40+ SEO-safe migrations to Webflow from WordPress, Wix, Framer, Squarespace and more.">
 <meta name="twitter:image" content="https://webflowmigrationexpert.com/images/og-image.png">
-<link rel="icon" href="/favicon.ico?v=2" sizes="any">
-<link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2">
+<link rel="icon" href="/favicon.ico?v=3" sizes="any">
+<link rel="icon" href="/favicon.svg?v=3" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3">
 <meta name="theme-color" content="#0D0C0A">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -380,13 +380,22 @@ footer ul.ftools{display:block;grid-template-columns:none}
  .tbl-wrap td[data-label]{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:14px}
  .tbl-wrap td[data-label]:before{content:attr(data-label);font-weight:700;color:var(--text);font-size:14px}
 }
+/*sticky-v1*/
+.mark.mark2{width:36px;height:36px;background:none;border-radius:0}
+.mcta{display:none;position:fixed;left:0;right:0;bottom:0;z-index:40;padding:10px 16px calc(12px + env(safe-area-inset-bottom));background:rgba(13,12,10,.94);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-top:1px solid rgba(214,176,98,.28);box-shadow:0 -20px 40px rgba(0,0,0,.35);transform:translateY(115%);transition:transform .3s cubic-bezier(.2,.7,.2,1)}
+.mcta.on{transform:none}
+.mcta small{display:block;text-align:center;color:var(--sand);font-size:13.5px;font-weight:600;margin-bottom:8px;letter-spacing:.01em}
+.mcta .btn{display:flex;width:100%;min-height:52px}
+@media (max-width:760px){.mcta{display:block}}
+@media (max-width:640px){.cta-row{flex-direction:column;align-items:stretch}.cta-row .btn,.cta-row .btn2{width:100%;justify-content:center}.hire .cta-row .btn,#proc-h~* .btn{width:100%}form .btn{width:100%}}
+@media (prefers-reduced-motion:reduce){.mcta{transition:none}}
 </style>
 </head>
 <body>
 <header class="nav">
   <div class="in">
     <a class="brand" href="/" aria-label="Webflow Migration Expert home">
-      <span class="mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#17120A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h13l-3-3M20 16H7l3 3"/></svg></span>
+      <span class="mark mark2"><svg viewBox="0 0 64 64" width="36" height="36" aria-hidden="true"><defs><linearGradient id="wmeg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6E2A6"/><stop offset=".55" stop-color="#D6AA55"/><stop offset="1" stop-color="#B8862F"/></linearGradient></defs><rect width="64" height="64" rx="15" fill="#0D0C0A"/><rect x=".75" y=".75" width="62.5" height="62.5" rx="14.25" fill="none" stroke="#D6B062" stroke-opacity=".35" stroke-width="1.5"/><rect x="12" y="14" width="28" height="22" rx="5" fill="none" stroke="url(#wmeg)" stroke-width="3" stroke-opacity=".55"/><rect x="23" y="26" width="29" height="24" rx="5.5" fill="url(#wmeg)"/><path d="M30 38h14M39 33l5 5-5 5" fill="none" stroke="#0D0C0A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
       <span class="txt">Webflow Migration Expert</span>
     </a>
     <div class="navr">
@@ -730,6 +739,15 @@ document.querySelectorAll('.menu .panel a').forEach(function(l){l.addEventListen
       .catch(function () { err.hidden = false; btn.disabled = false; btn.textContent = 'Request my migration quote'; });
   });
 })();
+</script>
+<div class="mcta" id="mcta" aria-hidden="true"><small>40+ Webflow migrations · 100% Job Success</small><a class="btn" href="#quote" tabindex="-1">Get a free migration quote <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#17120A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+<script>
+(function(){var bar=document.getElementById('mcta');if(!bar)return;var link=bar.querySelector('a');
+var hero=document.querySelector('.hero,.th');var stops=[].slice.call(document.querySelectorAll('#quote,#hire,footer'));var inStop=0;
+function set(on){bar.classList.toggle('on',on);bar.setAttribute('aria-hidden',on?'false':'true');link.tabIndex=on?0:-1;}
+function check(){var past=hero?hero.getBoundingClientRect().bottom<0:window.scrollY>600;set(past&&inStop===0);}
+if('IntersectionObserver'in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){e.target._in=e.isIntersecting;});inStop=stops.filter(function(s){return s._in;}).length;check();},{threshold:0});stops.forEach(function(s){io.observe(s);});}
+window.addEventListener('scroll',check,{passive:true});check();})();
 </script>
 </body>
 </html>
