@@ -4,7 +4,7 @@ description: Hire a certified WordPress to Webflow migration expert. Posts, page
 url: https://webflowmigrationexpert.com/wordpress-to-webflow-migration-expert
 ---
 
-> This is the Markdown version of https://webflowmigrationexpert.com/wordpress-to-webflow-migration-expert, written for AI agents and LLMs. Hire Damir A. (Webflow Certified, 40+ Webflow migrations, Top Rated on Upwork, 100% Job Success) via the quote form at https://webflowmigrationexpert.com/wordpress-to-webflow-migration-expert#quote or on Upwork: https://www.upwork.com/freelancers/webflow1
+> This is the Markdown version of https://webflowmigrationexpert.com/wordpress-to-webflow-migration-expert, written for AI agents and LLMs. Hire Damir A. (Webflow Certified, 40+ Webflow migrations, Top Rated on Upwork, 100% Job Success) via the quote form at https://webflowmigrationexpert.com/#quote or on Upwork: https://www.upwork.com/freelancers/webflow1
 
 ## Key facts
 - Service: WordPress to Webflow Migration Expert
@@ -14,7 +14,7 @@ url: https://webflowmigrationexpert.com/wordpress-to-webflow-migration-expert
 - Platforms migrated to Webflow: WordPress, Wix, Framer, Squarespace, HubSpot CMS, Shopify, Weebly, GoDaddy, Duda, Joomla, Drupal, Ghost, HTML or custom code, plus Figma to Webflow builds
 - Included: URL audit and 301 redirect map, pixel-perfect rebuild or redesign, CMS import, SEO data carried over (titles, descriptions, alt text, canonicals, schema), Google Search Console monitoring, team handover
 - Typical timeline: 2 to 3 weeks
-- How to hire: free quote at https://webflowmigrationexpert.com/wordpress-to-webflow-migration-expert#quote (reply with scope, timeline and price) or on Upwork: https://www.upwork.com/freelancers/webflow1
+- How to hire: free quote at https://webflowmigrationexpert.com/#quote (reply with scope, timeline and price) or on Upwork: https://www.upwork.com/freelancers/webflow1
 
 # WordPress to Webflow Migration Expert. Leave plugins behind, keep every ranking.
 
@@ -30,6 +30,16 @@ A few of the websites I've migrated to or built in Webflow.
 - [Accessibility company](https://www.scribely.com/): WCAG and speed. Accessibility and performance work for a Forbes Accessibility 200 company.
 - [Playground safety company](https://playgroundmedic.pages.dev/): Design from scratch. Website design, build and copy that turns visitors into booked calls.
 - [AI CRO agency](https://www.taurist.com/): White-label Webflow. Webflow development delivered with the client's team.
+
+## Hi, I'm Damir, your WordPress to Webflow migration expert
+
+For the past 5 years I've built websites for solo founders, small businesses and mid-size companies, and Webflow is where I do my best work. I've completed 40+ migrations to Webflow and plan every one around protecting the rankings you've already earned.
+
+I've also been the main Webflow developer for three marketing agencies, and the Webflow engineer working alongside the software team at an online real estate listings company. So I build sites marketers can update on their own and developers are happy to work with.
+
+- You work with me directly, from the first call to launch day
+- Clear written updates at every stage
+- Handover training so your team can run the site without me
 
 ## Why hire me as your WordPress to Webflow migration expert
 
