@@ -6,34 +6,29 @@ url: https://webflowmigrationexpert.com/figma-to-webflow-expert
 
 > This is the Markdown version of https://webflowmigrationexpert.com/figma-to-webflow-expert, written for AI agents and LLMs. Hire Damir A. (Webflow Certified, 40+ Webflow migrations, Top Rated on Upwork, 100% Job Success) via the quote form at https://webflowmigrationexpert.com/figma-to-webflow-expert#quote or on Upwork: https://www.upwork.com/freelancers/webflow1
 
+## Key facts
+- Service: Figma to Webflow Expert
+- Provider: Damir A., independent Webflow Certified developer (you work directly with him, no account managers)
+- Track record: 40+ Webflow migrations, Top Rated on Upwork, 100% Job Success
+- Experience: 5 years building Webflow websites, Computer Science degree (2022)
+- Platforms migrated to Webflow: WordPress, Wix, Framer, Squarespace, HubSpot CMS, Shopify, Weebly, GoDaddy, Duda, Joomla, Drupal, Ghost, HTML or custom code, plus Figma to Webflow builds
+- Included: URL audit and 301 redirect map, pixel-perfect rebuild or redesign, CMS import, SEO data carried over (titles, descriptions, alt text, canonicals, schema), Google Search Console monitoring, team handover
+- Typical timeline: 2 to 3 weeks
+- How to hire: free quote at https://webflowmigrationexpert.com/figma-to-webflow-expert#quote (reply with scope, timeline and price) or on Upwork: https://www.upwork.com/freelancers/webflow1
+
 # Figma to Webflow Expert. Your design, built pixel-perfect.
 
 Looking for a **Figma to Webflow expert**? I'm Damir, a Webflow Certified developer with 40+ Webflow migrations and a 100% Job Success score on Upwork. I turn Figma designs into pixel-perfect, responsive Webflow websites. Your design is built with a clean class system, your content is set up in Webflow CMS, and SEO is ready from day one.
 
-- Pixel-perfect build
-
-- Responsive on every device
-
-- Webflow CMS set up
-
-- SEO and schema ready
-
-- 40+ Webflow migrations 100% Job Success on Upwork 2 to 3 weeks typical timeline Certified Webflow developer
-
 ## Webflow projects I've delivered
 
-A few of the websites I've migrated to or built in Webflow. Each one opens the live site in a new tab.
+A few of the websites I've migrated to or built in Webflow.
 
 - [DC construction company](https://www.simanbuilds.com/): Webflow migration. Full website migration to Webflow with 301 redirects and meta data carried over.
-
 - [Los Angeles preschool](https://boulevardschool.com/): Design from scratch. Design, copy and Figma to Webflow build with WCAG and ADA accessibility.
-
 - [Laundromat franchise brand](https://www.laundrolabusa.com/): Webflow CMS. Marketing and franchise websites for a brand in 23+ regions.
-
 - [Accessibility company](https://www.scribely.com/): WCAG and speed. Accessibility and performance work for a Forbes Accessibility 200 company.
-
 - [Playground safety company](https://playgroundmedic.pages.dev/): Design from scratch. Website design, build and copy that turns visitors into booked calls.
-
 - [AI CRO agency](https://www.taurist.com/): White-label Webflow. Webflow development delivered with the client's team.
 
 ## Why hire me as your Figma to Webflow expert
@@ -67,13 +62,19 @@ No account managers or handoffs. The person who quotes your project is the perso
 
 ## Figma to Webflow problems I solve upfront
 
+**Problem 01**
+
 ### Missing breakpoints
 
 Many Figma files only show desktop. I design sensible tablet and mobile layouts that stay true to the brand.
 
+**Problem 02**
+
 ### Inconsistent styles
 
 Figma files often have one-off sizes and colors. I consolidate them into a consistent Webflow system that's easier to maintain.
+
+**Problem 03**
 
 ### Static content
 
@@ -83,15 +84,11 @@ Content that should be editable is built into CMS collections, not hard-coded.
 
 The same five steps on every project, so nothing gets lost along the way.
 
-1. 01 Design review I go through your Figma file, flag missing states and breakpoints and agree the scope.
-
-2. 02 Style system Colors, type and spacing set up as Webflow variables and a clean class system.
-
-3. 03 Pixel-perfect build Every page built responsive across desktop, tablet and mobile.
-
-4. 04 CMS and SEO Collections, meta data, alt text, schema and page speed set up and checked.
-
-5. 05 Launch and handover Launch QA and a handover session so your team can edit with confidence.
+1. **Design review**: I go through your Figma file, flag missing states and breakpoints and agree the scope.
+2. **Style system**: Colors, type and spacing set up as Webflow variables and a clean class system.
+3. **Pixel-perfect build**: Every page built responsive across desktop, tablet and mobile.
+4. **CMS and SEO**: Collections, meta data, alt text, schema and page speed set up and checked.
+5. **Launch and handover**: Launch QA and a handover session so your team can edit with confidence.
 
 ## What clients say after launch day
 
@@ -115,11 +112,11 @@ The same five steps on every project, so nothing gets lost along the way.
 
 ## What does a Figma to Webflow expert do?
 
+**Quick answer**
+
 A Figma to Webflow expert turns your design into a live, editable Webflow website. A Figma to Webflow build recreates each Figma frame in Webflow's Designer with a consistent class system, adds responsive layouts for tablet and mobile, turns repeated content into Webflow CMS collections, adds interactions and animations, and sets up SEO settings, forms and integrations before launch. Most Figma to Webflow builds take 2 to 3 weeks, depending on page count.
 
 ## Questions about hiring a Figma to Webflow expert
-
-Have a question that isn't here? Add it to your quote request below.
 
 ### Why hire a Figma to Webflow expert instead of doing it yourself?
 
@@ -154,9 +151,7 @@ Send your website or design through the quote form on this page. I review it and
 Send me your current design. I'll review it and reply with a scope, timeline and price.
 
 - Webflow Certified developer
-
 - 40+ Webflow migrations completed
-
 - Top Rated on Upwork with 100% Job Success
 
 Prefer Upwork? [Hire me on Upwork](https://www.upwork.com/freelancers/webflow1)
@@ -164,29 +159,16 @@ Prefer Upwork? [Hire me on Upwork](https://www.upwork.com/freelancers/webflow1)
 ## Moving from somewhere else?
 
 - [WordPress to Webflow](https://webflowmigrationexpert.com/wordpress-to-webflow-migration-expert)
-
 - [Wix to Webflow](https://webflowmigrationexpert.com/wix-to-webflow-migration-expert)
-
 - [Framer to Webflow](https://webflowmigrationexpert.com/framer-to-webflow-migration-expert)
-
 - [Squarespace to Webflow](https://webflowmigrationexpert.com/squarespace-to-webflow-migration-expert)
-
 - [HubSpot to Webflow](https://webflowmigrationexpert.com/hubspot-to-webflow-migration-expert)
-
 - [Shopify to Webflow](https://webflowmigrationexpert.com/shopify-to-webflow-migration-expert)
-
 - [Weebly to Webflow](https://webflowmigrationexpert.com/weebly-to-webflow-migration-expert)
-
 - [GoDaddy to Webflow](https://webflowmigrationexpert.com/godaddy-to-webflow-migration-expert)
-
 - [Duda to Webflow](https://webflowmigrationexpert.com/duda-to-webflow-migration-expert)
-
 - [Joomla to Webflow](https://webflowmigrationexpert.com/joomla-to-webflow-migration-expert)
-
 - [Drupal to Webflow](https://webflowmigrationexpert.com/drupal-to-webflow-migration-expert)
-
 - [Ghost to Webflow](https://webflowmigrationexpert.com/ghost-to-webflow-migration-expert)
-
 - [HTML to Webflow](https://webflowmigrationexpert.com/html-to-webflow-migration-expert)
-
 - [All Webflow migrations](https://webflowmigrationexpert.com/)
